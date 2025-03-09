@@ -1,1 +1,47 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply w-screen h-screen bg-wildSand-500 text-black-500;
+  }
+}
+
+@theme {
+  --color-chambray-100: #e6eaf1;
+  --color-chambray-300: #8394ad;
+  --color-chambray-500: #3b5897;
+  --color-chambray-700: #31467a;
+  --color-chambray-900: #25355b;
+
+  --color-nepal-100: #f0f1f6;
+  --color-nepal-300: #b1b8cf;
+  --color-nepal-500: #899bc2;
+  --color-nepal-700: #6e7fa1;
+  --color-nepal-900: #535f77;
+
+  --color-mystic-100: #f7f8fa;
+  --color-mystic-300: #ebedf2;
+  --color-mystic-500: #dee2ed;
+  --color-mystic-700: #bfc3d0;
+  --color-mystic-900: #9fa4b0;
+
+  --color-wildSand-100: #ffffff;
+  --color-wildSand-300: #fcfcfc;
+  --color-wildSand-500: #f7f7f7;
+  --color-wildSand-700: #e5e5e5;
+  --color-wildSand-900: #cccccc;
+
+  --color-buttercup-100: #fff8e1;
+  --color-buttercup-300: #ffe48a;
+  --color-buttercup-500: #ffc40e;
+  --color-buttercup-700: #cc9e0b;
+  --color-buttercup-900: #996f08;
+
+  --color-black-100: #595959;
+  --color-black-300: #444444;
+  --color-black-500: #2e2e2e;
+  --color-black-700: #191919;
+  --color-black-900: #000000;
+}
